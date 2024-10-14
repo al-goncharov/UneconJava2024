@@ -1,4 +1,4 @@
-package ru.unecod;
+package ru.unecon;
 
 import java.util.List;
 import java.util.regex.Pattern;

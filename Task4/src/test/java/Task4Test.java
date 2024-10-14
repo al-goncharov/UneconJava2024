@@ -1,7 +1,7 @@
-package ru.unecod;
+import ru.unecon.Task4;
 
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 import java.util.List;
 
 public class Task4Test {

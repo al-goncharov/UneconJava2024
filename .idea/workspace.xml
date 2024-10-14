@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc8faa7-e7f2-4ea0-b7f9-376fe060e752" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/unecod/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/unecod/Task4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/unecode/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/unecode/Task1/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/unecode/Task1/Task1.Перестановка.docx" beforeDir="false" />
-    </list>
+    <list default="true" id="4fc8faa7-e7f2-4ea0-b7f9-376fe060e752" name="Changes" comment="Implement phone number validation and formatting function&#10;&#10;- Created `phoneNumbers` method to process a list of Russian phone numbers.&#10;- Validated phone numbers to ensure they contain 7 or 10 digits.&#10;- Removed prefixes `+7` and `8`, and eliminated non-digit characters.&#10;- Returned a list of standardized phone numbers without spaces or hyphens.&#10;- Added unit tests to verify functionality and correctness of the implementation.&#10;- Organized the project as a Maven application." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,18 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "al-goncharov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;al-goncharov&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/al-goncharov/Java2024",
-    "accountId": "227f7be6-f9c9-404c-a7a3-66bdb3b4c2c7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/al-goncharov/Java2024&quot;,
+    &quot;accountId&quot;: &quot;227f7be6-f9c9-404c-a7a3-66bdb3b4c2c7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -52,19 +43,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.Task4Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rimbaaaaud/Desktop/unecone_java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.Task4Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rimbaaaaud/Desktop/unecone_java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="unecone_java" />
@@ -89,6 +80,30 @@
       <option name="presentableId" value="Default" />
       <updated>1728567589787</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implement phone number validation and formatting function&#10;&#10;- Created `phoneNumbers` method to process a list of Russian phone numbers.&#10;- Validated phone numbers to ensure they contain 7 or 10 digits.&#10;- Removed prefixes `+7` and `8`, and eliminated non-digit characters.&#10;- Returned a list of standardized phone numbers without spaces or hyphens.&#10;- Added unit tests to verify functionality and correctness of the implementation.&#10;- Organized the project as a Maven application.">
+      <option name="closed" value="true" />
+      <created>1728914758291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728914758291</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement phone number validation and formatting function&#10;&#10;- Created `phoneNumbers` method to process a list of Russian phone numbers.&#10;- Validated phone numbers to ensure they contain 7 or 10 digits.&#10;- Removed prefixes `+7` and `8`, and eliminated non-digit characters.&#10;- Returned a list of standardized phone numbers without spaces or hyphens.&#10;- Added unit tests to verify functionality and correctness of the implementation.&#10;- Organized the project as a Maven application." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement phone number validation and formatting function&#10;&#10;- Created `phoneNumbers` method to process a list of Russian phone numbers.&#10;- Validated phone numbers to ensure they contain 7 or 10 digits.&#10;- Removed prefixes `+7` and `8`, and eliminated non-digit characters.&#10;- Returned a list of standardized phone numbers without spaces or hyphens.&#10;- Added unit tests to verify functionality and correctness of the implementation.&#10;- Organized the project as a Maven application." />
   </component>
 </project>
